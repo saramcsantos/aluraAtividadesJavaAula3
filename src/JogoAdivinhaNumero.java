@@ -20,6 +20,7 @@ public class JogoAdivinhaNumero {
                 System.out.println("O número digitado é menor que o número gerado!");
             }else{
                 System.out.println(String.format("Parabéns, você acertou. O número aleatório gerado foi: %d", numeroAleatorio));
+                break;
             }
             quantidadeTentativas++;
         }
