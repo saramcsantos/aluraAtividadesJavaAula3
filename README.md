@@ -35,3 +35,14 @@ O contexto presente em todos os programas desenvolvidos nesta etapa do curso é 
 
 **Laços de repetição: while e for:** utilizamos o conhecimento sobre a entrada de dados e aplicamos o conceito de laços de repetição para calcular a média das avaliações dos filmes. While é um laço de repetição que faz uso de uma expressão lógica para executar por um determinado número de vezes uma tarefa específica, essa expressão lógica deve retornar: true até que toda a tarefa seja finalizada, ou seja, enquanto a expressão lógica for verdadeira, execute as determinadas instruções. For é um laço de repetição que faz uso do incremento ou decremento aplicado a um contador de vezes, esse contador deverá em um momento específicado pela regra de negócio atingir o limite de vezes necesário para ter a execução completa das instruções.
 
+**Jogo de Adivinhação:** 
+Crie um programa que simula um jogo de adivinhação, que deve gerar um número aleatório entre 0 e 100 e pedir para que o usuário tente adivinhar o número, em até 5 tentativas. A cada tentativa, o programa deve informar se o número digitado pelo usuário é maior ou menor do que o número gerado.
+
+Dicas:
+
+Para gerar um número aleatório em Java: new Random().nextInt(100);
+Utilize o Scanner para obter os dados do usuário;
+Utilize uma variável para contar as tentativas;
+Utilize um loop para controlar as tentativas;
+Utilize a instrução break; para interromper o loop.
+
